@@ -1,0 +1,54 @@
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+.headerImage {
+    max-height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.ballButton {
+    background-color: var(--darkgreen100);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.ballButton:hover {
+    background-color: var(--lightgreen100);
+}
+
+.ballButton.selected {
+    background-color: var(--lightgreen100);
+    border-color: var(--darkgreen100);
+}
+
+.seeMore {
+    display: none;
+    justify-content: center;
+    background-color: var(--goldencolor);
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    width: 6rem;
+    margin: auto;
+}
+
+.seeMore:hover {
+    background-color: var(--yellowcolor);
+}

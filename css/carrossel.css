@@ -1,0 +1,41 @@
+.slideshow {
+    background-size: cover;
+    overflow: hidden;
+    position: center;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.image {
+    display: none;
+}
+
+.image.active {
+    display: block;
+}
+
+.buttonsSlideshow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ballButton {
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.ballButton:hover {
+    background-color: #d1d1d1;
+    border-color: #fff;
+}
+
+.ballButton.selected {
+    background-color: #262626;
+    border-color: #fff;
+}

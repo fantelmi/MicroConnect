@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroConnect - Seja bem-vindo(a)</title>
+    <link rel="shortcut icon" href="./assets/images/logoVariante2.svg" type="svg">
+
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./assets/fonts/Avenir Regular.ttf">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <a href="./index.html"><img src="./assets/images/logoVariante2.svg" alt="Logo"></a>
+            <div class="navList">
+                <ol class="menu">
+                    <li><a href="./produtos.html" class="text">Produtos</a></li>
+                    <li><a href="./produtores.html" class="text">Produtores</a></li>
+                </ol>
+                <div>
+                    <ol class="loginArea">
+                        <li><a href="./register.html" id="register" class="text">Cadastre-se</a></li>
+                        <li><a href="./login.html" id="login" class="button">Login</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <header class="slideshow">
+            <div>
+                <img class="headerImage active" src="./assets/images/foto_destaque3.jpeg" alt="Imagem Destaque 3">
+                <img class="headerImage" src="./assets/images/foto_destaque1.jpg" alt="Imagem Destaque 1">
+                <img class="headerImage" src="./assets/images/foto_destaque2.jpeg" alt="Imagem Destaque 2">
+            </div>
+
+            <div class="buttonsHighlights">
+
+                <button class="ballButton selected"></button>
+                <button class="ballButton"></button>
+                <button class="ballButton"></button>
+
+            </div>
+        </header>
+
+        <h2 class="title">Destaques da Estação</h2>
+
+        <p class="noRegister">Não há nenhum produto cadastrado no momento.</p>
+
+        <a class="seeMore">VER MAIS</a>
+
+    </main>
+
+
+    <script src="./js/slideshow.js"></script>
+</body>
+
+</html>
